@@ -1,5 +1,21 @@
 # Brain-Stroke-Prediction-Data-Balancing-
 Comparative Study on Brainstroke Prediction Using Data Balancing Techniques
+Overview
+This project presents a comprehensive study on predicting brainstroke occurrences by employing various data balancing techniques. The aim is to enhance the performance of machine learning models when dealing with imbalanced datasets, which is a common issue in medical datasets. By comparing different balancing techniques, we strive to identify the most effective method for improving prediction accuracy.
 
-Abstract—
-Brain stroke is a medical malady that happens when there is a blockage in the blood circulation in the brain or when a blood vessel in the brain breaks and leaks. The global prevalence of the disease is gradually growing. Recent study shows that early detection of stroke is the most critical factor in improving patient care and treatment outcomes. Timely prediction of brain stroke is crucial for implementing preventive measures and improving patient outcomes. Although machine learning algorithms are used for automatic diagnosis. However, they have certain limits in terms of accuracy. Another issue is that models trained on class-unbalanced datasets often have poor results. Therefore, the main objective of the proposed work is to include a pre-processing method for balancing the data before the machine learning algorithms to improve classification accuracy. we present a comprehensive comparative study on the application of data balancing techniques like SMOTE, ADASYN and hybrid technique like SMOTE+TOMEK links  to enhance the performance of brain stroke prediction models. Our proposed methodologies outperform other arts-of-methods in terms of accuracy specificity, sensitivity, and other characteristics.
+Features
+Data Preprocessing: Includes data cleaning, normalization, and feature selection.
+Data Balancing Techniques: Implementation of various techniques such as SMOTE, ADASYN, Random Under-Sampling, and others.
+Model Building: Construction of predictive models using algorithms like Logistic Regression, Decision Trees, Random Forest, and Neural Networks.
+Performance Evaluation: Evaluation of model performance using metrics like accuracy, precision, recall, F1-score, and ROC-AUC.
+Comparative Analysis: Detailed comparison of the impact of each balancing technique on model performance.
+Requirements
+Python 3.x
+pandas
+numpy
+scikit-learn
+imbalanced-learn
+matplotlib
+seaborn
+
+My Paper link : https://ieeexplore.ieee.org/document/10507962
